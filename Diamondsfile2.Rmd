@@ -1,0 +1,12 @@
+---
+title: "Diamondsfile2"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds %>%
+  select(price, color, x)
+```
+
